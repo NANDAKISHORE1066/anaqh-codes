@@ -1,0 +1,39 @@
+\documentclass{knittingpattern}
+\usepackage{graphicx}
+\usepackage{soul}
+\usepackage{xcolor}
+\usepackage[export]{adjustbox}
+\definecolor{colour3}{HTML}{99CCFF}
+\definecolor{colour5}{HTML}{CCFFCC}
+\definecolor{colour0}{HTML}{000000}
+\definecolor{colour2}{HTML}{97DE76}
+\definecolor{colour4}{HTML}{EDB668}
+
+\begin{document}
+\section{Knitting Patterns}
+\paragraph{This class provides a very convenient way to introduce boxed diagrams. We are thus going to use our stock image a few more times. Also, it has a few features to make knitting instructions more readable, however, we can adapt them to make prettier documents for our purposes as well.}
+\begin{center}
+   \includegraphics[frame]{download} \\
+  
+\end{center}
+\important{colour0}{colour4}{We have a way of highlighting important text, or as was Originaly intended, important instructions. Feel free to choose whatever background and border colour you like when  you replicate these features, but try to replicate the dimensions as well as you can.}
+
+\begin{pattern}{colour3}{colour5}
+Course &  Credits\\
+Introduction to Computer Programming & (6)\\
+Abstracions and Paradigms in Programming & (6)\\
+Abstracions and Paradigms in Programming Lab & (5)\\
+Data Structure and Algorithms & (6)\\
+Software Systems Lab & (8)\\
+
+\end{pattern}
+\note{colour0}{colour2}{Note}{
+   This is a note. The above feature was introduced to typeset a sequence of Knitting instructions. The first column is for the instruction, the second for the number of stitches. But hey, it looks cool!
+}
+
+\intro{
+   Look at the adjoining graph. Yes you've seen it before . This time, it is side by side with a paragraph! And there's a beautiful box around it! By default, this will be a quarter of the width of the page. If you follow the hint that is the title of this section, you won't have to type in cumbersome code to fit in images. Also, have you noticed that the pages are much wider? A lot of it will be clear when you read up on the Knitting patterns class. it is already available with MacTeX distributions, and of course, online on Overleaf. If your distributions do not offer it, download it from here and copy the .cls file to the folder/directory your code is in . See the point where stuff becomes exponentially harder to do without LATEX? We daresay the rest of this assignment crosses that point. Good luck!
+}{download}
+
+
+\end{document}
